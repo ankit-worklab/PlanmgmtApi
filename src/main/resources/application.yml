@@ -1,0 +1,18 @@
+ spring:
+   datasource:
+    driver-class-name : org.h2.Driver
+    password: ashokit
+    url: jdbc:h2:mem:testdb
+    username: ashokit
+    
+    
+ plan-api:
+  messages:
+   planSaveSucc : plan is saved
+   planSaveFail : plan is not save
+   planUpdateSucc : plan is updated
+   planUpdateFail : plan is not updated
+   planDeleteSucc : plan is deleted
+   planDeleteFail : plan is not deleted
+   planStatusChangeSucc : status is changed
+   planStatusChangeFail : status is not changed
